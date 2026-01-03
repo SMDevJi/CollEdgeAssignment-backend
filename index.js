@@ -1,6 +1,5 @@
 import express from 'express'
 import dotenv from 'dotenv';
-import connectToDB from './db/db.js';
 import contactRouter from "./routes/contacts.js"
 
 import cors from 'cors'
